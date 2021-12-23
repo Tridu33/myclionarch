@@ -3,6 +3,9 @@
 # 使用标准的 glob 模式匹配
 # 星号（*）匹配零个或多个任意字符；[abc] 匹配任何一个列在方括号中的字符（这个例子要么匹配一个 a，要么匹配一个 b，要么匹配一个 c）；问号（?）只匹配一个任意字符；如果在方括号中使用短划线分隔两个字符，表示所有在这两个字符范围内的都可以匹配（比如 [0-9] 表示匹配所有 0 到 9 的数字）。
 urls/
+# 将内容从暂存区剔除
+# git rm -r --cached ${filePathToRemove}
+# 为了防止以后这些文件再次被add进去，需要将其添加到.gitignore文件中去
 
 # Clion ================================
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
@@ -14,6 +17,9 @@ urls/
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
+
+# AWS User-specific
+.idea/**/aws.xml
 
 # Generated files
 .idea/**/contentModel.xml
@@ -41,6 +47,9 @@ urls/
 # .idea/modules
 # *.iml
 # *.ipr
+
+# CMake
+cmake-build-*/
 
 # Mongo Explorer plugin
 .idea/**/mongoSettings.xml
@@ -112,9 +121,6 @@ fabric.properties
 *.exe
 *.out
 *.app
-
-# CMake
-cmake-build-*/
 
 # CMake ================================
 # 忽略 bin/ 目录下的所有文件
