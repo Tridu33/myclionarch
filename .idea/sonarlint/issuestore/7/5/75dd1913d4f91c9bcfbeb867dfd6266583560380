@@ -1,0 +1,14 @@
+
+f	cpp:S5276"Eimplicit conversion loses integer precision: 'unsigned long' to 'int'(­íü½úÿÿÿÿ8§ÒüıÌ/
+f	cpp:S5276"Eimplicit conversion loses integer precision: 'unsigned long' to 'int'(ï¬ˆ¨ÿÿÿÿÿ8§ÒüıÌ/
+…	cpp:S5276&"dimplicit conversion loses integer precision: 'std::vector::size_type' (aka 'unsigned long') to 'int'(ƒê÷úÿÿÿÿ8ôœúıÌ/
+Bcpp:CommentedCode8"Remove the commented out code.(‡é°á8šúıÌ/
+C	cpp:S5817
+"'This function should be declared const.(µµóÒ8‰«úıÌ/
+acpp:AssignmentInSubExpression",Extract the assignment from this expression.(¥êÉîşÿÿÿÿ8íåüıÌ/
+acpp:AssignmentInSubExpression",Extract the assignment from this expression.(ÃûÓøÿÿÿÿ8îåüıÌ/
+C	cpp:S5817"'This function should be declared const.(µµóÒ8ïåüıÌ/
+_	cpp:S5566"CChange this raw for-loop to a range for-loop or an "std::for_each".(«èÑ™8‹«úıÌ/
+Ncpp:S106(".Replace this usage of "std::cout" by a logger.(şˆÎÔøÿÿÿÿ8«úıÌ/
+Icpp:S106*".Replace this usage of "std::cout" by a logger.(¡Æ–ã8«úıÌ/
+Gcpp:CommentedCode<"Remove the commented out code.(Ÿ“¨óüÿÿÿÿ8È÷óıÌ/

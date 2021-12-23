@@ -1,0 +1,14 @@
+//
+// Created by tridu33 on 9/27/2021.
+//
+
+#ifndef ARR2LINKLIST_CPP_QUICKSORTRAND_H
+#define ARR2LINKLIST_CPP_QUICKSORTRAND_H
+
+
+class quickSortRand {
+
+};
+
+
+#endif //ARR2LINKLIST_CPP_QUICKSORTRAND_H

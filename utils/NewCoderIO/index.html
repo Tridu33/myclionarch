@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang = "zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IO</title>
+    <input type="输入框：" value="" id="textId" class="textClass" name="textName">
+    <button type = "button" onclick="changeContent()">Solution.</button>
+</head>
+<body>
+<script type = "text/javascript" src = "./Solution.js"></script>
+<script type = "text/javascript">
+"use strict"
+    /*
+    console.log("log");
+    */
+    // alert("123456");
+    // // 提示框： alert("提示内容");
+    // var name=prompt("请输入您的名字","xxx");
+    // // 输入框 var name= prompt("提示内容","默认内容");
+    // // name 为输入的内容
+    // var a = confirm("是否确定");
+    // // 提示框： confirm("提示内容");
+    // // a 为 true 或者 false
+
+    //方法1：
+    var inputstr = document.getElementById("textId").value;    //textId为文的id,此时inputValue为输入框的值
+    // 方法2：var value = document.getElementsByClassName("textClass").value     //注意：值为类名的元素值的集合
+    // 方法3：var value = document.getElementsByName("textName").value             //注意：值为带有指定名称的对象值的集合
+    // 方法4：var value = document.getElementsByTagName("标签名对应值").value //注意：值为带有指定标签名 input 的对象值的集合 
+    let outputstr = solution(inputstr);
+    
+    function changeContent() {
+        // alert("input string is: ",outputstr);
+        console.log(outputstr);
+    }
+</script>
+</body>
+</html>

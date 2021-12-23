@@ -1,0 +1,5 @@
+
+b	cpp:S3539"ARemove this access specifier; it does not affect any declaration.(ĞòÚÚüÿÿÿÿ8¾ ÑÂ/
+H	cpp:S5817"'This function should be declared const.(êÒşşÿÿÿÿ8í ÑÂ/
+W	cpp:S1172"6Remove the unused parameter "nums" or make it unnamed.(êÒşşÿÿÿÿ8î ÑÂ/
+ƒcpp:S995"cMake this parameter a reference-to-const. The current type of "nums" is "class std::vector<int> &".(êÒşşÿÿÿÿ8î ÑÂ/
